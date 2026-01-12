@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 //This is my first java program
    public static void main(String[] args){
@@ -49,6 +51,17 @@ else {
 System.out.println("My name is "+ name);
 System.out.println("Your email is "+ email);
 
+
+Scanner scanner  = new Scanner(System.in);  
+System.out.print("Enter your name: ");
+String name1 = scanner.nextLine();
+System.out.println("Hello "+ name1);
+System.out.println("Enter you age: ");
+int age1 = scanner.nextInt();
+System.out.println("You are "+ age1 + " years old");
+
+
+scanner.close();
 
 }
 }
