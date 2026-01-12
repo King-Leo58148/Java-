@@ -24,14 +24,31 @@ boolean isStudent = true;
 boolean forSale = false;
 
 
+String name = "Louis";
+String email = "lsanyenni@gmail.com";
+
 System.out.println(age);
 System.out.println("The year is "+ year);
-System.out.println("$" + price);
-System.out.println (currency +" " + price);
+System.out.println("$" +" price");
+System.out.println (currency + " " + price);
 
 System.out.println(forSale);
 
 
+//simple if statement
+if(isStudent){
+    System.out.println("You are a student");
+}
 
-    }
+else {
+    System.out.println("You are not a student");
+}
+
+
+
+System.out.println("My name is "+ name);
+System.out.println("Your email is "+ email);
+
+
+}
 }
