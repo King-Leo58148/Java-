@@ -56,10 +56,13 @@ Scanner scanner  = new Scanner(System.in);
 System.out.print("Enter your name: ");
 String name1 = scanner.nextLine();
 System.out.println("Hello "+ name1);
-System.out.println("Enter you age: ");
+System.out.print("Enter you age: ");
 int age1 = scanner.nextInt();
 System.out.println("You are "+ age1 + " years old");
 
+System.out.print("What is your GPA?: ");
+double gpa1 = scanner.nextDouble();
+System.out.println("Your gpa is " + gpa1);
 
 scanner.close();
 
