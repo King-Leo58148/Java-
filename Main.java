@@ -66,5 +66,8 @@ System.out.println("Your gpa is " + gpa1);
 
 scanner.close();
 
+int x = 5*3/2 -3%5 +2;
+System.out.println(x);
+
 }
 }

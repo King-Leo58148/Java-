@@ -15,6 +15,12 @@ public class work {
        
     }
     double standard_deviation=Math.sqrt(deviation_sum/9);
+    
+    int num = (int) Math.round(standard_deviation);
+    int factorial;
+    for(int i = 0 ; i<num ;i++){
+     factorial= (num)
+    }
 
 
     System.out.println("Average : " + average);
