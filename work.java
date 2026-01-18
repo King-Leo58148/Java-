@@ -27,7 +27,7 @@ public class work {
 
     System.out.println("Average : " + average);
     System.out.println("Standard deviation : " + standard_deviation);
-    System.out.println(factorial);
+    System.out.println("Factorial: "+ factorial);
 
 
  }
