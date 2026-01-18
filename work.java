@@ -17,8 +17,8 @@ public class work {
     int num = (int) Math.round(standard_deviation);
     int factorial=1;
 
-    for (int i = 0; i<10;i++){
-        int n = (10-i);
+    for (int i = 0; i<num;i++){
+        int n = (num-i);
         factorial= factorial * n;
 
 
