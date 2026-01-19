@@ -44,7 +44,7 @@ if(isStudent){
 
 else {
     System.out.println("You are not a student");
-}
+}u
 
 
 
