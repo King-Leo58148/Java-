@@ -13,6 +13,7 @@ public class work {
         deviation_sum += Math.pow(numbers[i] - average,2);
        
     }
+    // standard deviation
     double standard_deviation=Math.sqrt(deviation_sum/9);
     int num = (int) Math.round(standard_deviation);
     int factorial=1;
@@ -28,7 +29,7 @@ public class work {
     System.out.println("Average : " + average);
     System.out.println("Standard deviation : " + standard_deviation);
     System.out.println("Factorial: "+ factorial);
-
+// commit test
 
  }
 
