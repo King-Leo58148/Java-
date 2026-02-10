@@ -25,7 +25,7 @@ public class EngineeringTest {
         }
 
         System.out.println("Material Failure at Cycle "+ cycleCount);
-        System.out.println("Final Structural Integrity: " + structralIntegrity);
+        System.out.println("Final Integrity level: " + structralIntegrity);
         sc.close();
 
     }
