@@ -12,7 +12,7 @@ public class TwoDimensionalArrays {
            num++;
             
         }
-        
+        //
       }
 
         count[i-1]=num;
