@@ -10,5 +10,5 @@ public class test {
         System.out.println("X2 = "+x2+" y2 = "+ y2);
     }
 }
-//
+
 //
