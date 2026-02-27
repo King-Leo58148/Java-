@@ -1,4 +1,5 @@
  public class ListingElements {
+    //double array
     public static void main(String [] args){
         int x[][]={{2,3},{4,5}};
         int y[][]={{2,3},{4,5}};
