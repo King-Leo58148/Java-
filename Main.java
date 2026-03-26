@@ -64,6 +64,7 @@ System.out.print("What is your GPA?: ");
 double gpa1 = scanner.nextDouble();
 System.out.println("Your gpa is " + gpa1);
 
+String name3 = scanner.nextLine();
 scanner.close();
 
 int x = 5*3/2 -3%5 +2;
