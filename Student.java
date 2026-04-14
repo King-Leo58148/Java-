@@ -1,14 +1,14 @@
-public class Student{
-    String name;
-    int age;
-    double gpa;
-    boolean isEnrolled=true;
+public class Student extends Person{
 
-    Student(String name,int age, double gpa){
-            this.name= name;
-            this.age = age;
+    double gpa;
+    
+
+    Student(String first,String last,double gpa){
+            super(first,last);
             this.gpa = gpa;
 
     }
-    
+    void showGpa(){
+        System.out.println(this.gpa);
+    }
 }

@@ -45,12 +45,12 @@ public class Main {
 
     //   for(int i =0;i<users.length;i++){
     //     System.out.println(users[i].age);
-Dog dog = new Dog();
-Cat cat = new Cat();
+// Dog dog = new Dog();
+// Cat cat = new Cat();
 
-Plant plant = new Plant();
+// Plant plant = new Plant();
 
-plant.photosynthesise();
+// plant.photosynthesise();
 
 
 // System.out.println(dog.isAlive);
@@ -60,10 +60,20 @@ plant.photosynthesise();
 // dog.speak();
 // System.out.println(cat.lives);
 // cat.speak();
+Person person1 = new Person("louis","s");
+Person person2=new Person("Jude","f");
+person1.showName();
+person2.showName();
+System.out.println(person1.first);
+System.out.println(person2.first);
+Student student1 = new Student("louis", "s", 4.0);
+student1.showName();
+student1.showGpa();
 
+Employee employee1 = new Employee("louis","Sanyenni",2000);
+employee1.showSalary();
+}
 }
 
-
-}
 
 
