@@ -71,7 +71,15 @@ student1.showName();
 student1.showGpa();
 
 Employee employee1 = new Employee("louis","Sanyenni",2000);
+Employee employee2 = new Employee("h","S",2000);
+Employee employee3 = new Employee("third","employee",2000);
 employee1.showSalary();
+System.out.println(Employee.numOfEmployee);
+System.out.println(Employee.numOfEmployee);
+System.out.println(Employee.numOfEmployee);
+Employee.showNumOfEmployee();
+
+
 }
 }
 
