@@ -25,21 +25,45 @@ public class Main {
     // System.out.println( student2.age);
     // System.out.println( student2.isEnrolled);
  
-    User user1 = new User("Louis");
-    User user2 = new User("Sandy","sandy@gmail.com");
-    User user3 = new User("Patrick","patrickstar@gmail.com",21);
+    // User user1 = new User("Louis");
+    // User user2 = new User("Sandy","sandy@gmail.com");
+    // User user3 = new User("Patrick","patrickstar@gmail.com",21);
     
-    System.out.println(user1.name);
-     System.out.println(user1.email);
-      System.out.println(user1.age);
+    // System.out.println(user1.name);
+    //  System.out.println(user1.email);
+    //   System.out.println(user1.age);
 
-      System.out.println(user2.name);
-      System.out.println(user2.email);
-      System.out.println(user2.age);
+    //   System.out.println(user2.name);
+    //   System.out.println(user2.email);
+    //   System.out.println(user2.age);
 
-      System.out.println(user3.name);
-      System.out.println(user3.email);
-      System.out.println(user3.age);
-    
-}}
+    //   System.out.println(user3.name);
+    //   System.out.println(user3.email);
+    //   System.out.println(user3.age);
+
+    //   User[] users = {user1,user2,user3};
+
+    //   for(int i =0;i<users.length;i++){
+    //     System.out.println(users[i].age);
+Dog dog = new Dog();
+Cat cat = new Cat();
+
+Plant plant = new Plant();
+
+plant.photosynthesise();
+
+
+// System.out.println(dog.isAlive);
+// System.out.println(cat.isAlive);
+// dog.eat(); 
+// System.out.println(dog.lives);
+// dog.speak();
+// System.out.println(cat.lives);
+// cat.speak();
+
+}
+
+
+}
+
 
