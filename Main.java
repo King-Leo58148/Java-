@@ -82,6 +82,9 @@ public class Main {
 // System.out.println(Employee.numOfEmployee);
 // Employee.showNumOfEmployee();
 
+Cirlce cirlce = new Cirlce();
+Triangle triangle = new Triangle();
+Rectangle rectangle = new Rectangle();
 
 }
 }
