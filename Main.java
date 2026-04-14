@@ -47,7 +47,10 @@ public class Main {
     //     System.out.println(users[i].age);
 // Dog dog = new Dog();
 // Cat cat = new Cat();
-
+// Fish fish = new Fish();
+// dog.move();
+// cat.move();
+// fish.move();
 // Plant plant = new Plant();
 
 // plant.photosynthesise();
@@ -60,24 +63,24 @@ public class Main {
 // dog.speak();
 // System.out.println(cat.lives);
 // cat.speak();
-Person person1 = new Person("louis","s");
-Person person2=new Person("Jude","f");
-person1.showName();
-person2.showName();
-System.out.println(person1.first);
-System.out.println(person2.first);
-Student student1 = new Student("louis", "s", 4.0);
-student1.showName();
-student1.showGpa();
+// Person person1 = new Person("louis","s");
+// Person person2=new Person("Jude","f");
+// person1.showName();
+// person2.showName();
+// System.out.println(person1.first);
+// System.out.println(person2.first);
+// Student student1 = new Student("louis", "s", 4.0);
+// student1.showName();
+// student1.showGpa();
 
-Employee employee1 = new Employee("louis","Sanyenni",2000);
-Employee employee2 = new Employee("h","S",2000);
-Employee employee3 = new Employee("third","employee",2000);
-employee1.showSalary();
-System.out.println(Employee.numOfEmployee);
-System.out.println(Employee.numOfEmployee);
-System.out.println(Employee.numOfEmployee);
-Employee.showNumOfEmployee();
+// Employee employee1 = new Employee("louis","Sanyenni",2000);
+// Employee employee2 = new Employee("h","S",2000);
+// Employee employee3 = new Employee("third","employee",2000);
+// employee1.showSalary();
+// System.out.println(Employee.numOfEmployee);
+// System.out.println(Employee.numOfEmployee);
+// System.out.println(Employee.numOfEmployee);
+// Employee.showNumOfEmployee();
 
 
 }
