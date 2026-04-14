@@ -6,7 +6,7 @@ public class EngineeringTest {
         double failureThreshold =15;
         int cycleCount = 0;
         double fatigueDamage = 5.0;
-        
+        //298
         Scanner sc = new Scanner(System.in);
         while(structralIntegrity >failureThreshold){
            System.out.print("Enter pressure force for Cycle "+ (cycleCount+1) + ":");
