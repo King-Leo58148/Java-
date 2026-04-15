@@ -92,6 +92,15 @@ Fish fish = new Fish();
 fish.flee();
 fish.hunt();
 
+// Predator[] predators = {fish,hawk};
+
+// for (Predator predator:predators){
+//     predator.hunt();
+// }
+
+
+
+
 }
 }
 
