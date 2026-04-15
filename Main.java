@@ -1,4 +1,7 @@
 
+import java.util.Scanner;
+
+
 public class Main {
 
 
@@ -97,12 +100,31 @@ fish.hunt();
 // for (Predator predator:predators){
 //     predator.hunt();
 // }
+Scanner scanner = new Scanner(System.in);
+Predator predator1;
+
+System.out.println("What would you like a fish or Hawk? (1 =fish,2 = hawk): ");
+int choice = scanner.nextInt();
+
+if (choice==1){
+predator1 = new Fish();
+predator1.hunt();
+}
+
+else if (choice == 2) {
+   predator1 = new Hawk();
+    predator1.hunt();
+    
+}
+
+
+
+
 
 
 
 
 }
 }
-
 
 
